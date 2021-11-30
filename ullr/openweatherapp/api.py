@@ -38,7 +38,7 @@ class OWAOneCall(Requester):
         self._endpoint = "onecall"
 
     def create_payload(self, data: dict):
-        """This api endpoint doesn't need any payload"""
+        """This api endpoint doesn't need any payload."""
         ...
 
     def make_request(self) -> dict:
